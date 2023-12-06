@@ -10,3 +10,20 @@ else:
 my_name="Rajnish"    
 print(type(my_name))
 print(my_name)
+
+x,y,z ="banana","mango","apple"
+print(x)
+print(y)
+print(z)
+
+# x = y = z = "Orange"
+# print(x)
+# print(y)
+# print(z)
+
+name= "Rajnish","Manish","Yash"
+a,b,c =name
+
+print(a)
+print(b)
+print(c)
