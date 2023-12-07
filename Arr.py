@@ -1,4 +1,5 @@
-name=["rajnish","manish","yash"]
+name=["rajnish","manish","yash"] 
+# list data types
 
 print(name[0])
 print(name[1])
