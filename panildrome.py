@@ -1,12 +1,16 @@
-input = "asad"
-reverse="jbksa"
+input = "asa"
 
-def check():
-    print("hello")
-    for i in input:
-        print(i)
-        # reverse =i
 
-check()
+def check(input):
+    reverse=""
+    for i in reversed(input):
+        reverse += i
+    if (input==reverse):
+        print("true")
+    else: 
+        print("false")
 
-print(reverse)
+
+check(input)
+
+
